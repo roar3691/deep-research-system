@@ -76,11 +76,6 @@ print(result["final_answer"])
   pip show langchain-community
   ```
 
-## Future Enhancements
-- Add caching for repeated queries.
-- Support multiple LLMs via OpenRouter.
-- Integrate additional data sources (e.g., academic papers, X posts).
-- Enhance UI with visualizations (e.g., word clouds).
 
 ## Submission
 This project is submitted for the Kairon Qualifying Assignment. For further details, contact [contact@kairon.co.in](mailto:contact@kairon.co.in).
