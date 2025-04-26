@@ -6,11 +6,12 @@ This project implements a Deep Research AI Agentic System using LangChain, LangG
 2. **Answer Drafter Agent**: Synthesizes research data into a coherent draft answer.
 3. **Final Answer Refiner**: Polishes the draft into a professional response.
 
+The project is deployed at: https://huggingface.co/spaces/roar3691/research-agent
+
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/roar3691/deep-research-system.git
-   ```
 2. Set up the virtual environment with conda:
    ```bash
    conda create -n tf_env python=3.12
