@@ -1,4 +1,3 @@
-"""
 # Deep Research AI Agentic System with Streamlit UI
 
 ## Overview
@@ -85,4 +84,3 @@ print(result["final_answer"])
 
 ## Submission
 This project is submitted for the Kairon Qualifying Assignment. For further details, contact [contact@kairon.co.in](mailto:contact@kairon.co.in).
-"""
