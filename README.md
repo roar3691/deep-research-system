@@ -9,7 +9,7 @@ This project implements a Deep Research AI Agentic System using LangChain, LangG
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/deep-research-system.git
+   git clone https://github.com/roar3691/deep-research-system.git
    ```
 2. Set up the virtual environment with conda:
    ```bash
