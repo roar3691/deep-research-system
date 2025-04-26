@@ -1,0 +1,7 @@
+langchain==0.2.16
+langchain-community==0.2.17
+langgraph==0.1.19
+python-dotenv==1.0.1
+requests==2.31.0
+streamlit==1.31.0
+protobuf==4.25.5
