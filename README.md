@@ -8,6 +8,30 @@ This project implements a Deep Research AI Agentic System using LangChain, LangG
 
 The project is deployed at: https://huggingface.co/spaces/roar3691/research-agent
 
+## File Descriptions
+
+
+
+
+
+**app.py**: The main entry point for the Streamlit web application. It defines the user interface, handles user input (research queries), and displays results. It imports the run_deep_research function from main.py to execute the agentic workflow and render outputs.
+
+
+
+**main.py**: Contains the core logic of the multi-agent system. It defines the LangGraph workflow, agent nodes (Research Agent, Answer Drafter, Final Answer Refiner), Tavily search integration, and OpenRouter LLM client. It provides the run_deep_research function used by app.py.
+
+
+
+**.env.example**: A template for the .env file, specifying required environment variables (TAVILY_API_KEY and OPENROUTER_API_KEY). Users must create a .env file based on this template with valid API keys.
+
+
+
+**requirements.txt**: Lists the Python dependencies (langchain==0.2.16, langchain-community==0.2.17, langgraph==0.1.19, python-dotenv==1.0.1, requests==2.31.0, streamlit==1.31.0, protobuf==4.25.5) for installation via pip.
+
+
+
+
+
 ## Installation
 1. Clone the repository:
    ```bash
